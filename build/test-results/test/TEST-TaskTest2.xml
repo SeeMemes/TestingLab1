@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TaskTest2" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-03-07T01:57:39" hostname="SEEMEMES-PC" time="0.005">
-  <properties/>
-  <testcase name="compareTraces()" classname="TaskTest2" time="0.005"/>
-  <system-out><![CDATA[9 4 1 0 2 5 14 11 10 12 13 19 16 15 17 22 23 ]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

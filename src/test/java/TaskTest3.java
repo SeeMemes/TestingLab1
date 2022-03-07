@@ -15,7 +15,7 @@ public class TaskTest3 {
         } catch (AliveException ignored) {
         }
 
-        assertTrue(Arthur.isAlive());
+        assertFalse(Arthur.isAlive());
     }
 
     @Test
@@ -28,7 +28,7 @@ public class TaskTest3 {
         } catch (AliveException ignored) {
         }
 
-        assertTrue(Arthur.isAlive());
+        assertFalse(Arthur.isAlive());
     }
 
     @Test
@@ -39,10 +39,10 @@ public class TaskTest3 {
         Ford.addFriend(Zaphod);
         Zaphod.addFriend(Ford);
 
-        Action hold = new Action("держит", Ford);
+        Action hold = new Action("открыть", Ford);
         hold.setSubject(door);
 
-        assertEquals(hold.getObject(), Ford.getName());
+        assertEquals(hold.getObject(), Zaphod.getName());
         assertEquals(hold.getSubject(), door.getName());
     }
 }

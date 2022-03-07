@@ -1,7 +1,6 @@
 package task2;
 
 import java.util.ArrayList;
-import java.util.List;
 
 import static java.lang.Math.max;
 
@@ -19,7 +18,7 @@ public class AVLTree extends BinarySearchTreeRecursive {
         node = super.insertNode(key, node);
         updateHeight(node);
 
-        return rebalance(node);
+        return node;
     }
 
     @Override

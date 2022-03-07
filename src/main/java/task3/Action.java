@@ -12,12 +12,12 @@ public class Action {
     }
 
     public void changeAlive (boolean who, boolean alive){
-        if (subject == null) throw new AliveException(true);
+        if (who && subject == null) throw new AliveException(true);
         (who ? subject : object).setAlive(alive);
     }
 
     public void changeCondition (boolean who, String condition) throws AliveException {
-        if (subject == null) throw new AliveException(true);
+        if (who && subject == null) throw new AliveException(true);
         (who ? subject : object).setCondition(condition);
     }
 
