@@ -1,0 +1,28 @@
+task1/Cosine.java
+ task1.Cosine
+task3/Thing.java
+ task3.Thing
+task2/BinarySearchTree.java
+ task2.BinarySearchTree
+task2/BinarySearchTreeRecursive.java
+ task2.BinarySearchTreeRecursive
+task2/Node.java
+ task2.Node
+task2/BaseBinaryTree.java
+ task2.BaseBinaryTree
+task2/BinaryTree.java
+ task2.BinaryTree
+task2/AVLTree.java
+ task2.AVLTree
+task3/Gerund.java
+ task3.Gerund
+task3/SomeThing.java
+ task3.SomeThing
+task3/AliveException.java
+ task3.AliveException
+task3/Person.java
+ task3.Person
+task3/Action.java
+ task3.Action
+Main.java
+ Main
